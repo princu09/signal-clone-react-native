@@ -3,7 +3,6 @@ import React, {useEffect, useLayoutEffect, useState} from 'react';
 import {Button, Input} from 'react-native-elements';
 import {
   createUserWithEmailAndPassword,
-  updateCurrentUser,
   updateProfile,
 } from 'firebase/auth';
 import {auth} from '../../../firebaseConfig';
